@@ -1,5 +1,5 @@
 const express = require("express");
-const movies = require("./data/movies.json");
+const movies = require("./movie.json");
 const crypto = require("node:crypto");
 const { validateMovie, validatePartialMovie } = require("./schema/movieSchema");
 

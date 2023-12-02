@@ -31,7 +31,7 @@ PATCH  http://localhost:4000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 Content-Type: application/json
 
 {
-    "year": 2005,
+    "year": 2020,
     "title": "mmgvo jeffrey",
     "director": "JOse luis el mmgvo"
 }
