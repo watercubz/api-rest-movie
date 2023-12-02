@@ -12,6 +12,7 @@ const ACCEPTED_ORIGINS = [
   "http://localhost:4000",
   "http://localhost:5173",
   "http://localhost:1234",
+  "http://localhost:8080",
 ];
 
 // todos los recursos que sean MOVIES se identifica con /movie
