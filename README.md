@@ -36,7 +36,7 @@ To start the server, use the following command: `node npm run dev`
 
 ### Endpoint
 
-- URL: `http://localhost:4000/books`
+- URL: `http://localhost:4000/movies`
 - Method: GET
 
 - URL: `http://localhost:4000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3`
