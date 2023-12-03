@@ -2,10 +2,9 @@
 
 GET  http://localhost:4000/movies
 
-
 ### Recuperar una pelicula por id
 
-GET  http://localhost:4000/movies/
+GET  http://localhost:4000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 
 ### Recuperar todas las peliculas por un genero
 
@@ -25,13 +24,15 @@ Content-Type: application/json
         "Drama"
     ]
 }
+### borrar una pelicula
+DELETE  http://localhost:4000/movies/6a360a18-c645-4b47-9a7b-2a71babbf3e0
 
 ### Actualizar una pelicula
-PATCH  http://localhost:4000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+PATCH  http://localhost:4000/movies/8fb17ae1-bdfe-45e5-a871-4772d7e526b8
 Content-Type: application/json
 
 {
     "year": 2020,
-    "title": "mmgvo jeffrey",
-    "director": "JOse luis el mmgvo"
+    "title": "the guebo",
+    "director": "klk mmgvo"
 }
