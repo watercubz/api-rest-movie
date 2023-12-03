@@ -57,11 +57,12 @@ To start the server, use the following command: `node npm run dev`
 }`
 - Method: POST
 
+
 - URL:
 `http://localhost:4000/movies/6a360a18-c645-4b47-9a7b-2a71babbf3e0`
 - Method: DELETE
 
-- URL: http://localhost:4000/movies/8fb17ae1-bdfe-45e5-a871-4772d7e526b8
+- URL: `http://localhost:4000/movies/8fb17ae1-bdfe-45e5-a871-4772d7e526b8`
 `
 {
     "year": 2020,
