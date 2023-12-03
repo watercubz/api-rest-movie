@@ -7,7 +7,7 @@ app.use(json());
 app.use(valideMiddleware());
 app.disable("x-powered-by");
 
-// todos los recursos que sean MOVIES se identifica con /movie
+// todos los recursos que sean MOVIES se identifica con /movies
 app.use("/movies", router);
 
 const PORT = process.env.PORT ?? 4000;
