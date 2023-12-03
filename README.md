@@ -42,10 +42,11 @@ To start the server, use the following command: `node npm run dev`
 - URL: `http://localhost:4000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3`
 - Method: GET:ID
 
-- URL:
-`http://localhost:4000/movies
+- URL: `http://localhost:4000/movies
 `
-`{
+- Method: POST
+
+````{
     "title": "The Little",
     "year": 2009,
     "director": "blanck jons",
@@ -54,23 +55,19 @@ To start the server, use the following command: `node npm run dev`
     "genre": [
         "Drama"
     ]
-}`
-- Method: POST
-
+}```
 
 - URL:
-`http://localhost:4000/movies/6a360a18-c645-4b47-9a7b-2a71babbf3e0`
+  `http://localhost:4000/movies/6a360a18-c645-4b47-9a7b-2a71babbf3e0`
 - Method: DELETE
 
 - URL: `http://localhost:4000/movies/8fb17ae1-bdfe-45e5-a871-4772d7e526b8`
-`
-{
+- Method: PATCH
+ ```{
     "year": 2020,
     "title": "the confession",
     "director": "Francisco cosco"
-}
-`
-- Method: PATCH
+}```
 
 ## Contributing
 
@@ -79,3 +76,4 @@ If you want to contribute to this project, feel free to open an issue or submit 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+````
