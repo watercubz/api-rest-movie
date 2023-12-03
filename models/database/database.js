@@ -8,6 +8,6 @@
 const sigueme = [`https://github.com/watercubz`];
 
 console.log(
-  "🚀 Mil gracias por usar esta api, aun que aun no esta completa pero seguimos trabajando en ello" +
+  "🚀 Mil gracias por usar esta api, aun que aun no esta completa, pero seguimos trabajando en ello 💜" +
     sigueme
 );
