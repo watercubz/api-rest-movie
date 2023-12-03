@@ -46,7 +46,8 @@ To start the server, use the following command: `node npm run dev`
 `
 - Method: POST
 
-````{
+````
+{
     "title": "The Little",
     "year": 2009,
     "director": "blanck jons",
@@ -76,4 +77,5 @@ If you want to contribute to this project, feel free to open an issue or submit 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ````
