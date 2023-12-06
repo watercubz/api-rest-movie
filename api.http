@@ -4,7 +4,7 @@ GET  http://localhost:4000/movies
 
 ### Recuperar una pelicula por id
 
-GET  http://localhost:4000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+GET  http://localhost:4000/movies/f3db90bd-93d1-11ee-9a91-80ce6237a6b0
 
 ### Recuperar todas las peliculas por un genero
 
@@ -15,15 +15,17 @@ POST  http://localhost:4000/movies
 Content-Type: application/json
 
 {
-    "title": "The javascript good",
-    "year": 2009,
-    "director": "Midudev",
-    "duration": 30,
-    "poster": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2FEtoe9LMG7mc%2Foar2.jpg%3Fsqp%3D-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC%26rs%3DAOn4CLCvoDGO_VENt_nxY6Rp-G3N-NvFVg&tbnid=kFfvDjbsZ_0vSM&vet=12ahUKEwj5-NHZke2CAxVSGmIAHRgaBhQQMygCegQIARBU..i&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fc%2Fmidulive%2Fshorts&docid=lK_7Ak_GDk8vJM&w=405&h=720&q=foto%20midulive&ved=2ahUKEwj5-NHZke2CAxVSGmIAHRgaBhQQMygCegQIARBU",
-    "genre": [
-        "Drama"
-    ]
+  "sql": "SELECT * FROM users",
+  "title": "Avatar",
+  "year": 2009,
+  "director": "James Cameron",
+  "duration": 162,
+  "poster": "https://i.etsystatic.com/35681979/r/il/dfe3ba/3957859451/il_fullxfull.3957859451_h27r.jpg",
+  "genre": [
+   "Action"
+  ]
 }
+
 ### borrar una pelicula
 DELETE  http://localhost:4000/movies/6a360a18-c645-4b47-9a7b-2a71babbf3e0
 
