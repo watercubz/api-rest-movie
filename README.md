@@ -2,6 +2,39 @@
 
 This is an API developed in Node.js that allows you to obtain endpoints for your personal or professional projects. It is open source, simple, and easy to configure. The API responds to an endpoint with JSON containing information about all movies.
 
+## Project Structure
+
+```
+└── 📁MOVIE_EXAMPLE_API
+    └── api.http
+    └── app.js
+    └── 📁controllers
+        └── movies.controllers.js
+    └── License
+    └── 📁middlewares
+        └── cors.js
+    └── 📁models
+        └── 📁database
+            └── mongoDB.js
+        └── 📁local-file-system
+            └── local-movie.js
+        └── movie.js
+        └── 📁mysql
+            └── movie-sql.js
+    └── movies.json
+    └── package-lock.json
+    └── package.json
+    └── README.md
+    └── 📁schema
+        └── movieSchema.js
+    └── server-with-local.js
+    └── server-with-mysql.js
+    └── 📁static
+        └── index.html
+    └── 📁utils
+        └── utils.js
+```
+
 ## Getting Started
 
 1. Make sure you have Node.js installed on your system.
