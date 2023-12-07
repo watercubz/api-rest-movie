@@ -4,8 +4,8 @@ const config = {
   host: "localhost",
   user: "root",
   port: 3306,
-  password: "sosadev16",
-  database: "moviesdb",
+  password: "*****",
+  database: "*****",
 };
 
 const connection = await msql.createConnection(config);
